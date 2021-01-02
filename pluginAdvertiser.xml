@@ -1115,6 +1115,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.rs">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.rust.lang" />
+              <option name="myPluginName" value="Rust" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.sass">
           <value>
             <plugin>
@@ -1896,6 +1904,11 @@
                       <FeaturePluginData displayName="CTest Application" pluginName="CLion CTest" pluginId="org.jetbrains.plugins.clion.ctest" />
                     </value>
                   </entry>
+                  <entry key="CargoCommandRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Cargo" pluginName="Rust" pluginId="org.rust.lang" />
+                    </value>
+                  </entry>
                   <entry key="ChromiumRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
@@ -1999,6 +2012,11 @@
                   <entry key="UtPlSqlConfigurationType">
                     <value>
                       <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" />
+                    </value>
+                  </entry>
+                  <entry key="WasmPackCommandRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="wasm-pack" pluginName="Rust" pluginId="org.rust.lang" />
                     </value>
                   </entry>
                   <entry key="XSLT">
