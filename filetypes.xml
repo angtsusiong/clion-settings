@@ -1,9 +1,13 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="sql" type="DBN-SQL" />
+      <mapping ext="csv" type="CSV" />
+      <removed_mapping ext="tsv" type="CSV/TSV" />
+      <removed_mapping ext="csv" type="CSV/TSV" />
+      <removed_mapping ext="sql" type="DBN-SQL" />
       <mapping pattern="swetest" type="PLAIN_TEXT" />
-      <removed_mapping ext="sql" type="SQL" />
+      <mapping ext="sql" type="SQL" />
+      <mapping ext="tsv" type="TSV" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
